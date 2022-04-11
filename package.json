@@ -1,0 +1,46 @@
+{
+  "name": "havdb-benrrs-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "author": "Frank von Schrenk",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@swc/core": "^1.2.148",
+    "babel-loader": "^8.2.3",
+    "carbon-components": "^10.54.0",
+    "carbon-components-react": "^7.54.0",
+    "carbon-icons": "^7.0.7",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.6.0",
+    "styled-components": "^5.3.3",
+    "swc-loader": "^0.1.15",
+    "webpack": "^5.69.1",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0",
+    "webpack-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "@carbon/icons-react": "^10.47.0",
+    "css-loader": "^6.6.0",
+    "cypress": "^9.5.1",
+    "cypress-protobuf": "^1.0.5",
+    "miragejs": "^0.1.43",
+    "node-sass": "^7.0.1",
+    "react-cookie": "^4.1.1",
+    "react-router-dom": "^6.2.1",
+    "snowpack": "^3.8.8",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
